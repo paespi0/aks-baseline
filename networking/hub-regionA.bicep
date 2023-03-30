@@ -24,7 +24,7 @@ param nodepoolSubnetResourceIds array
   'southeastasia'
 ])
 @description('The hub\'s regional affinity. All resources tied to this hub will also be homed in this region. The network team maintains this approved regional list which is a subset of zones with Availability Zone support.')
-param location string = 'eastus2'
+param location string = 'eastus'
 
 @description('Optional. A /24 to contain the regional firewall, management, and gateway subnet. Defaults to 10.200.0.0/24')
 @maxLength(18)
